@@ -1,108 +1,105 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
- *{
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
     font-family: "Montserrat", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
  }
- body{
-       font-size: 10px;
-
- }
- .sidebar{
-    background-color: rgba(0, 0, 0, 0.900);
-    width: 280px;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
- }
- .sidebar-header {
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: column;
-   text-align: center;
-   margin-top: 50px;
-  }
-   .sidebar-header .personal-img {
-    width: 45%; 
-    border-radius: 100%;
-    height: auto; 
-    display: block; 
-    margin: 0 auto; 
+ html {
+  font-size: 10px;
 }
- .sidebar-header .personal-tittle{
-   color: #FFFCF2;
-   font-size: 1.5rem;
-   margin-top: 13px;
-
- }
- .sidebar-header .personal-job{
-    color: #CCC5B9;
-   font-size: 0.9rem;
- }
-.personal-job i{
-   font-size: 0.8rem;
+.navbar{
+  height: 75px;  
 }
 
- .sidebar-menu ul {
-   list-style: none;
-   margin-top: 50px;
-   
- }
- 
- .sidebar-menu li {
-   margin-bottom: 10px;
-   margin-left: 40px;
- }
- 
- .sidebar-menu a {
-   text-decoration: none;
-   color: #CCC5B9;
-   display: flex;
-   align-items: center;
-   font-size: 1.2rem;
-   padding: 4px;
-   }
+.logo h1{
+  color: orange;
+  font-weight: normal;
+}
 
-   .sidebar-menu a i {
-      margin-right: 5px;
-      font-size: 18px; 
-      width: 18px;
-      height: 16px;
-      margin-right: 13px;
-    }
- 
-    .sidebar-menu a:hover{
-      color: white;
-      transition: 0.6s;
-    }
- 
-    .sidebar-social{
-      display: flex;
-      align-items: center;
-      justify-content:center;
-      padding-top: 70px;
-    }
-    .sidebar-social i{
-      margin: 12px;
-      font-size: 28px; 
-      width: 18px;
-      height: 16px;
-      color:  #CCC5B9;
-      cursor: pointer;
-    }
 
-    
-    .sidebar-social i:hover {
-      animation: shake 0.5s;
-      color: white;
-    }
-    
-    @keyframes shake {
-      0% { transform: translate(0, 0); }
-      25% { transform: translate(-2px, 0); }
-      50% { transform: translate(3px, 0); }
-      75% { transform: translate(-2px, 0); }
-      100% { transform: translate(3px, 0); }
-    }
+.dancing-script .logo-first-letter {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+.navbar-menu-items ul li a{
+  margin-left: 12px;
+  margin-right: 12px;
+  font-size: 1.6rem;
+  color: white;
+  padding-bottom: 5px;
+}
+.navbar-social i {
+font-size: 2rem;
+margin: 0px 4px;
+width: 20px;
+height: 20px;
+cursor: pointer;
+color: white;
+
+}
+.navbar-social i:hover{
+  animation: shake 0.5s;
+
+}
+@keyframes shake {
+  0% { transform: translate(0, 0); }
+  25% { transform: translate(-3px, 0); }
+  50% { transform: translate(3px, 0); }
+  75% { transform: translate(-3px, 0); }
+  100% { transform: translate(0, 0); }
+}
+.navbar-menu-items ul li a:hover{
+  border-bottom: 2px solid orange;
+  transition: 0.9s;
+}
+.main{
+  height: 88vh;
+  
+}
+.main-info{
+  
+  padding-top: 220px;
+  height: 500px;
+}
+.main-info h4{
+  font-size: 2.8rem;
+  margin-right: 13px;
+  color: white;
+}
+.main-info h1{
+  font-size: 4.8rem;
+  color: orange;
+}
+.main-info p{
+  font-size: 2.4rem;
+  color: white;
+}
+.main-image{
+ padding-top: 120px;
+  height: 500px;
+ }
+.my-image{
+  width: 400px;
+  height: auto;
+}
+.image-container{
+  width: 500px;
+  border-left: 4px solid orange;
+}
+.main-btn{
+  background-color: transparent !important;
+  color: orange !important;
+  width: 120px!important;
+  font-size: 1.4rem!important;
+}
+.main-btn:hover{
+  background-color: orange !important;
+  color: black !important;
+  transition: 0.9s !important;
+}

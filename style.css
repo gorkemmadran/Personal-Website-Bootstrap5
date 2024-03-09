@@ -9,6 +9,10 @@
  html {
   font-size: 10px;
 }
+.orange{
+  color: orange;
+  font-weight: bold;
+}
 .navbar{
   height: 75px;  
 }
@@ -45,6 +49,7 @@ color: white;
 }
 .navbar-social i:hover{
   animation: shake 0.5s;
+  color: orange;
 
 }
 @keyframes shake {
@@ -102,4 +107,96 @@ color: white;
   background-color: orange !important;
   color: black !important;
   transition: 0.9s !important;
+}
+.about{
+  height: 600px;
+  border-top: orange 2px solid;
+  padding-top: 60px;
+}
+.about h1{
+  color: white;
+  font-weight: bold;
+  font-size: 4.2rem;
+  margin-top: 30px;
+}
+.about p{
+  color: whitesmoke;
+  font-size: 1.6rem;
+  margin-left: 10px;
+  margin-top: 30px;
+  padding: 20px;
+
+}
+.çizgi{
+  width: 400px;
+  background-color: orange;
+  height: 3px;
+}
+.about-btn{
+  background-color: transparent !important;
+  border: 1px solid orange !important;
+  color: orange !important;
+  width: 120px !important;
+  height: 40px!important;
+  margin: 10px;
+  font-size: 1.4rem!important;
+
+}
+.about-btn:hover{
+  background-color: orange!important;
+  color: black!important;
+  transition: 0.9s!important;
+}
+.skils{
+  background-color: black;
+  height: 600px;
+}
+.skils-tittle{
+color: white;
+font-weight: bold;
+font-size: 4.2rem;
+padding-bottom: 30px;
+}
+.skils-area{
+height: 500px;
+padding-top: 30px;
+
+}
+.icon-card{
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+
+}
+.icon-card:hover{
+  transition: 0.9s;
+}
+.skils-area p{
+  color: white;
+  font-size: 1.9rem;
+  padding-top: 30px;
+}
+.skils-area i{
+font-size: 5rem;
+}
+.skils-area .html-icon{
+color: orange;
+}
+.skils-area .css-icon{
+color: blue;
+}
+.skils-area .javascript-icon{
+color: yellow;
+}
+.skils-area .react-icon{
+  color: aqua;
+}
+.sass-icon{
+  color: pink;
+}
+.git-icon{
+  color: rgba(255, 0, 0, 0.596);
+}
+.bootstrap-icon{
+  color: blue;
 }

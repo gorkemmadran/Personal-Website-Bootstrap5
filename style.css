@@ -180,30 +180,7 @@ padding-top: 30px;
   font-size: 1.9rem;
   padding-top: 30px;
 }
-.skils-area i{
-font-size: 5rem;
-}
-.skils-area .html-icon{
-color: orange;
-}
-.skils-area .css-icon{
-color: blue;
-}
-.skils-area .javascript-icon{
-color: yellow;
-}
-.skils-area .react-icon{
-  color: aqua;
-}
-.sass-icon{
-  color: pink;
-}
-.git-icon{
-  color: rgba(255, 0, 0, 0.596);
-}
-.bootstrap-icon{
-  color: blue;
-}
+
 .deneme{
   width: 300px;
   height: 300px;
@@ -285,4 +262,8 @@ padding-bottom: 30px;
 }
 .project-6{
   background-image: url('./f70a56c29cea3ae1b73219b4e7f376b9.jpeg');
+}
+
+.icon-img{
+  width: 55px;
 }

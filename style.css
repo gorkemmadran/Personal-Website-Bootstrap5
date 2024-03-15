@@ -161,7 +161,7 @@ padding-top: 30px;
 .icon-card{
   width: 200px;
   height: 200px;
-  border-radius: 20px;
+  border-radius: 5px;
 }
 .icon-card:hover{
   box-shadow: 0px 2px 10px 2px rgb(255, 98, 0);
@@ -343,4 +343,70 @@ border-radius: 5px;
 }
 .contact-information{
   margin-bottom: 80px;
+}
+.footer{
+  background-color: black;
+  padding-top: 50px;
+}
+.footer-area{
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-link-tittle{
+  color: orange;
+  font-size: 2.4rem;
+  text-align: center;
+}
+.footer-link-item{
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+  padding-top: 5px;
+  font-size: 1.4rem;
+}
+.footer-link, .footer-contact, .footer-about{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-contact-tittle{
+  color: orange;
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+.footer-i{
+  font-size: 2.4rem;
+  color: orange;
+  padding-right: 5px;
+}
+.footer-p{
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1.4rem;
+}
+.footer-about-tittle{
+  text-align: center;
+  color: orange;
+  font-size: 2.4rem;
+}
+.footer-about-p{
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1.4rem;
+}
+.footer-explain{
+  background-color: orange!important;
+  width: 100%;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black!important;
+  font-size: 1.4rem;
 }

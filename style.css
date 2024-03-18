@@ -14,7 +14,7 @@
   font-weight: bold;
 }
 .navbar{
-  height: 75px;  
+  height: 75px;
 }
 .logo h1{
   color: orange;
@@ -109,14 +109,11 @@ color: white;
 }
 .about{
   height: 600px;
-  border-top: orange 2px solid;
-  padding-top: 60px;
 }
 .about h1{
   color: white;
   font-weight: bold;
   font-size: 4.2rem;
-  margin-top: 30px;
 }
 .about p{
   color: whitesmoke;
@@ -278,7 +275,7 @@ padding-bottom: 30px;
   font-size: 1.4rem;
   border-radius: 20px;
   outline: none;
-  border: 1px solid white;
+  border: 1px solid rgba(255, 255, 255, 0.5);
   margin-top: 15px;
   padding-left: 10px;
   background-color: rgba(255, 166, 0, 0.784);
@@ -292,14 +289,15 @@ padding-bottom: 30px;
   border: 1px solid orange;
   padding-left: 10px;
   background-color: rgba(255, 166, 0, 0.784);
-  border: 1px solid white;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+
 }
 .message-input{
   width: 450px;
   height: 250px;
   border-radius: 20px;
   outline: none;
-  border: 1px solid white;
+  border: 1px solid rgba(255, 255, 255, 0.5);
   background-color: rgba(255, 166, 0, 0.784);
   margin-top: 15px;
   font-size: 1.4rem;
@@ -344,69 +342,44 @@ border-radius: 5px;
 .contact-information{
   margin-bottom: 80px;
 }
-.footer{
-  background-color: black;
-  padding-top: 50px;
-}
-.footer-area{
-  height: 200px;
+.ara-geçiş{
+  height: 150px!important;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.footer-link-tittle{
-  color: orange;
-  font-size: 2.4rem;
-  text-align: center;
-}
-.footer-link-item{
-  color: rgba(255, 255, 255, 0.75);
-  text-decoration: none;
-  padding-top: 5px;
-  font-size: 1.4rem;
-}
-.footer-link, .footer-contact, .footer-about{
-  display: flex;
-  align-items: center;
   flex-direction: column;
+  background-color: orange!important;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.ara-geçiş h1{
+  color: dark;
+}
+.ara-geçiş i{
+  font-size: 3rem;
   margin-top: 10px;
+  cursor: pointer;
+  margin-right: 10px; 
 }
-.footer-contact {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.footer-contact-tittle{
-  color: orange;
-  font-size: 2.4rem;
-  text-align: center;
+.move-icon{
+  animation: moveUpDown 1s infinite;
+  position: relative;
 }
 
-.footer-i{
-  font-size: 2.4rem;
-  color: orange;
-  padding-right: 5px;
-}
-.footer-p{
-  color: rgba(255, 255, 255, 0.75);
-  font-size: 1.4rem;
-}
-.footer-about-tittle{
-  text-align: center;
-  color: orange;
-  font-size: 2.4rem;
-}
-.footer-about-p{
-  color: rgba(255, 255, 255, 0.75);
-  font-size: 1.4rem;
-}
-.footer-explain{
-  background-color: orange!important;
-  width: 100%;
-  height: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: black!important;
-  font-size: 1.4rem;
-}
+
+@keyframes moveUpDown {
+        0%, 100% {
+            top: 0;
+        }
+        50% {
+            top: 5px;
+        }
+    }
+
+    .footer{
+      height: 20px;
+      background-color: orange;
+      color: black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }

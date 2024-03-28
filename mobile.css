@@ -1,0 +1,86 @@
+@media only screen and (max-width: 768px) {
+    .logo{
+        display: none;
+    }
+    .navbar-menu-items{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .navbar-social{
+        display: none;
+    }
+    .navbar-social i{
+       display: none; 
+    }
+   
+    .main-info{
+        padding: 0;
+        padding-top: 70px;
+        text-align: center;
+        order:1;
+
+    }
+    .main-content{
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .main-info h1{
+        font-size: 3.8rem;
+    }
+    .main-info h4{
+        font-size: 2.5rem;
+    }
+    .main-image{
+        padding: 0px;
+        padding-top: 20px;
+        order:2;
+        }
+        .image-container{
+            margin: auto;
+        }
+        .my-image{
+            width: 300px;
+          }
+          .image-container{
+            width: 305px;
+          }
+          .about h1{
+            font-size: 3.5rem;
+            text-align: center;
+          }
+          .about a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 80px;
+          }
+          .about p{
+            padding: 10px;
+            margin: 0;
+            font-size: 1.5rem;
+            line-height: 25px;
+          }
+          .about-btn{
+            margin-top: 30px;
+          }
+          .çizgi{
+            margin-right: 10px;
+          }
+          .icon-card{
+            width: 150px;
+            height: 150px;
+            margin: 0px;
+            padding: 0;
+          }
+          .icon-card p{
+            text-align: center;
+            font-size: 1.5rem;
+          }
+        
+}

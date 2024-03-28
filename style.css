@@ -58,19 +58,21 @@ color: white;
   color: orange!important;
 }
 .main{
-  height: 88vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .main-info{
   padding-top: 220px;
-  height: 500px;
 }
 .main-info h4{
-  font-size: 2.8rem;
+  font-size: 3.5rem;
   margin-right: 13px;
   color: white;
+  letter-spacing: 7px;
 }
 .main-info h1{
-  font-size: 4.8rem;
+  font-size: 3rem;
   color: orange;
 }
 .main-info p{
@@ -79,7 +81,6 @@ color: white;
 }
 .main-image{
  padding-top: 120px;
-  height: 500px;
  }
 .my-image{
   width: 400px;
@@ -110,9 +111,7 @@ color: white;
   font-size: 1.6rem;
   color: orange;
 }
-.about{
-  height: 600px;
-}
+
 .about h1{
   color: white;
   font-weight: bold;
@@ -153,7 +152,6 @@ color: white;
 }
 .skils{
   background-color: black;
-  height: 600px;
 }
 .skils-tittle{
 color: white;
@@ -162,7 +160,6 @@ font-size: 4.2rem;
 padding-bottom: 30px;
 }
 .skils-area{
-height: 500px;
 padding-top: 30px;
 }
 .icon-card{
@@ -190,24 +187,21 @@ padding-top: 30px;
  justify-content: center;
  flex-direction: column;
 }
-.project{
-  height: 800px;
-}
+
 .project-area .project .project-tittle{
-  color: white;
+color: white;
 font-weight: bold;
 font-size: 4.2rem;
 padding-bottom: 30px;
 }
 .proje{
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   max-width: fit-content;
   max-height: fit-content;
-  margin: 5px;
 }
 .proje:hover{
   box-shadow: 0px 2px 10px 2px rgb(255, 98, 0);
@@ -215,6 +209,7 @@ padding-bottom: 30px;
 }
 .deneme {
   opacity: 0;
+  margin: auto;
   transition: opacity 0.3s;
 }
 .proje:hover .deneme {

@@ -43,7 +43,7 @@ color: white;
 
 }
 .navbar-social i:hover{
-  animation: shake 0.5s;
+  animation: shake 0.5s ;
   color: orange;
 }
 @keyframes shake {
@@ -83,11 +83,14 @@ color: white;
  }
 .my-image{
   width: 400px;
-  height: auto;
+  animation: 10s shake infinite;
+  border-radius: 100%;
 }
 .image-container{
-  width: 500px;
-  border-left: 4px solid orange;
+  width: 405px;
+  border-left: 3px solid rgba(255, 166, 0, 0.5);
+  border-radius: 50%;
+  border-right: 4px solid rgba(255, 166, 0, 0.5);
 }
 .main-btn{
   background-color: transparent !important;
@@ -140,6 +143,13 @@ color: white;
   background-color: orange!important;
   color: black!important;
   transition: 0.9s!important;
+}
+.about h4{
+  color: white;
+  font-size: 2rem;
+}
+.certification-item{
+  height: 300px!important;
 }
 .skils{
   background-color: black;
@@ -320,6 +330,9 @@ color: black!important;
 .send-btn i{
   margin-right: 5px;
 }
+.contact{
+  height: 700px;
+}
 .contact .contact-icon{
   font-size: 3.5rem;
   color: orange;
@@ -352,7 +365,7 @@ border-radius: 5px;
   border: 1px solid rgba(255, 255, 255, 0.5);
 }
 .ara-geçiş h1{
-  color: dark;
+  color: black;
 }
 .ara-geçiş i{
   font-size: 3rem;

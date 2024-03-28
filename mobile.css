@@ -44,12 +44,7 @@
         .image-container{
             margin: auto;
         }
-        .my-image{
-            width: 300px;
-          }
-          .image-container{
-            width: 305px;
-          }
+      
           .about h1{
             font-size: 3.5rem;
             text-align: center;

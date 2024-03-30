@@ -83,15 +83,15 @@ color: white;
  padding-top: 120px;
  }
 .my-image{
-  width: 400px;
+  width: 340px;
   animation: 10s shake infinite;
   border-radius: 100%;
 }
 .image-container{
-  width: 405px;
-  border-left: 3px solid rgba(255, 166, 0, 0.5);
+  width: 344px;
+  border-left: 3px solid rgba(255, 166, 0, 0.9);
   border-radius: 50%;
-  border-right: 4px solid rgba(255, 166, 0, 0.5);
+  border-right: 4px solid rgba(255, 166, 0, 0.4);
 }
 .main-btn{
   background-color: transparent !important;
@@ -125,7 +125,7 @@ color: white;
   padding: 20px;
 }
 .çizgi{
-  width: 400px;
+  width: 200px;
   background-color: orange;
   height: 3px;
 }
@@ -163,8 +163,8 @@ padding-bottom: 30px;
 padding-top: 30px;
 }
 .icon-card{
-  width: 250px;
-  height: 250px;
+  width: 220px;
+  height: 200px;
   border-radius: 5px;
 }
 .icon-card:hover{

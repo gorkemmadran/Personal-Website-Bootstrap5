@@ -170,7 +170,8 @@ padding-top: 30px;
 .icon-card:hover{
   box-shadow: 0px 2px 10px 2px rgb(255, 98, 0);
   transition: 0.9s;
-  background: linear-gradient(rgba(255, 166, 0, 0.262),orange);
+  border: 1px solid orange;
+  background: linear-gradient(rgba(255, 0, 0, 0.088),orange);
 }
 .skils-area p{
   color: white;
@@ -201,12 +202,14 @@ padding-bottom: 30px;
   background-position: center;
   max-width: fit-content;
   max-height: fit-content;
-  border-radius: 10px;
+  border-radius: 5px;
   margin:10px!important;
 }
 .proje:hover{
   box-shadow: 0px 2px 10px 2px rgb(255, 98, 0);
   transition: 0.9s;
+  border: 1px solid orange;
+  background: linear-gradient(orange,rgba(255, 0, 0, 0.088));
 }
 .deneme {
   opacity: 0;
@@ -239,23 +242,35 @@ padding-bottom: 30px;
   font-weight: bold!important;
 }
 .project-1{
-  background-image: url('./13dbcc2101d2793cf9646c06da05b8b1.jpeg');
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid orange;
 }
 .project-2{
-  background-image: url('./459bb79685201c727b0af565c2f33e5e.jpeg');
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid orange;
+
 
 }
 .project-3{
-  background-image: url('./5db5d8f45ba050c41a9bf1638c4242c0.jpeg');
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid orange;
+
 }
 .project-4{
-  background-image: url('./8bd5999223093ecc6e4e7a34990dc67a.jpeg');
+  border: 1px solid orange;
+
+  background-color: rgba(255, 255, 255, 0);
 }
 .project-5{
-  background-image: url('./baba838698139c7b212d16e7033740ea.jpeg');
+  border: 1px solid orange;
+
+  background-color: rgba(0, 0, 0, 0.026);
+
 }
 .project-6{
-  background-image: url('./f70a56c29cea3ae1b73219b4e7f376b9.jpeg');
+  border: 1px solid orange;
+
+  background-color: rgba(0, 0, 0, 0.026);
 }
 .icon-img{
   width: 52px;
